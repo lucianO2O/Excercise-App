@@ -18,8 +18,6 @@ body {
 
 .hero_dropdown {
     padding: 5px 4rem 5px 10px;
-    position: relative;
-    overflow: visible;
 }
 
 .hero_dropdown:hover {
@@ -28,18 +26,24 @@ body {
 
 .hero_dropdown_content {
     position: absolute;
+    opacity: 0;
+    z-index: 1;
 }
 
 .hero_dropdown a {
     padding: 5px 4rem 5px 10px;
     text-decoration: none;
-    opacity: 0;
-    z-index: 1;
+    display: block;
+    background-color: #16c640;
 }
 
 .hero_dropdown a:hover {
-    opacity: 1;
     background-color: #00ff41;
+}
+
+.hero_dropdown:hover .hero_dropdown_content{
+    display: block;
+    opacity: 1;
 }
 
 /* Containers */
