@@ -57,8 +57,26 @@ body {
     visibility: visible;
 }
 
+/* extra credit */
 .edit_btn {
-    font-size: large;
+    font-weight: normal;
+    display: block;
+    padding: 5px 3.5rem 5px 10px;
+    width: 100%;
+}
+
+.hero_dropdown-edit {
+    padding: 0;
+}
+
+.hero_dropdown-edit:focus-within {
+    background-color: #16c640;
+}
+
+.hero_dropdown-edit:focus-within .hero_dropdown_content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 
