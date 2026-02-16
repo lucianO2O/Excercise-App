@@ -6,28 +6,26 @@
     color: #FFC300;
 }
 
-
 /* body */
 body {
     background-color: #000814;
 }
-
 
 /* top-nav */
 .hero {
     background-color: #001D3D;
 }
 
-.hero_nav-container {
+.navbar {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.hero_nav-menu {
+.navbar-brand {
     display: flex;
 }
 
-.hero_nav-link {
+.navbar-brand .navbar-item {
     display: flex;
     justify-content: center;
     color: #FFC300;
@@ -38,17 +36,7 @@ body {
     min-width: 5rem;
 }
 
-.hero_nav-link:hover {
+.navbar-brand .navbar-item:hover {
     color: #003566;
     background-color: #FFD60A;
-}
-
-/* welcome container */
-
-.container {
-    display: flex;
-    background-color: #003566;
-    margin: 5rem;
-    padding: 5rem;
-    justify-content: center;
 }
