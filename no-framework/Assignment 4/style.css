@@ -39,9 +39,14 @@
     margin-top: 2rem;
 }
 
+.panel {
+    margin: 0px;
+}
+
 .panel .checkboxes {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 .panel .checkboxes .panel-block {
@@ -49,5 +54,5 @@
     display: flex;
     justify-content: flex-start;
     padding: .5em .75em;
-    margin-top: 0px !important; 
+    margin: 0px;
 }
